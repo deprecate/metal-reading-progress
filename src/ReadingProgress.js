@@ -1,7 +1,7 @@
 'use strict';
 
 import { core, object } from 'metal';
-import templates from './ReadingProgress.soy';
+import templates from './ReadingProgress.soy.js';
 import Component from 'metal-component';
 import ReadingProgressTracker from './ReadingProgressTracker';
 import Soy from 'metal-soy';
@@ -143,4 +143,5 @@ ReadingProgress.STATE = {
 	}
 };
 
+export { ReadingProgress };
 export default ReadingProgress;

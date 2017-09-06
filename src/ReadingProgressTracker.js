@@ -121,4 +121,5 @@ ReadingProgressTracker.STATE = {
 	}
 };
 
+export { ReadingProgressTracker };
 export default ReadingProgressTracker;
