@@ -21,5 +21,5 @@ A reading progress indicator
 4. Build the code:
 
   ```
-  gulp build
+  npm run build
   ```
